@@ -80,6 +80,7 @@ c = df.loc['G2'].loc[2]['B']
 # cross section
 
 df.xs('G1')
+df.xs(1,level='Num')
 
 
 
