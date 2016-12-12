@@ -60,7 +60,8 @@ data = {'A':['foo','foo','foo','bar','bar','bar'],
 
 df = pd.DataFrame(data)
 
-print(df.pivot_table(values='D',index=['A', 'B'],columns=['C']))  # creates multi-index df
+print(df.pivot_table(values='D',index=['A', 'B'],columns=['C'])) 
+# creates multi-index df
 
 
 
